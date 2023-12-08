@@ -1,7 +1,7 @@
 {
-  "name": "MDS-2023-lean-startup",
+  "name": "MDS-2023-Lean-Startup",
   "private": true,
-  "homepage" : "https://hjrencontre.github.io/MDS-2023-lean-startup/",
+  "homepage" : "https://hjrencontre.github.io/MDS-2023-Lean-Startup/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
