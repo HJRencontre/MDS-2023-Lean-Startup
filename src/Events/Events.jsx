@@ -1,11 +1,11 @@
 export default function Events() {
     return (<div className="w-auto border-2 card border-lime">
             <div className="card lg:card-side">
-                <img src="src/assets/images/mapsketch2.png" alt=""/>
+                <img src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/mapsketch2.png" alt=""/>
                 <div>
                     <h1 className="text-left text-5xl font-bold">Comédie des 3 Bornes</h1>
                     <div className="flex place-items-center">
-                        <img src="src/assets/images/pin.png" alt=""/>
+                        <img src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/pin.png" alt=""/>
                         <p> 32 Rue des Trois Bornes, 75011 Paris - 300mètres</p>
                     </div>
                     <p className="m-0 text-justify font-bold sm: md:mt-14">
@@ -20,8 +20,8 @@ export default function Events() {
             <div className="space-y-4">
                 <h1 className="text-left text-5xl font-bold">A la une</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-blueMidnight">
-                    <div className="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="src/assets/images/alamericaine.jpeg"
+                    <div className="card w-80 bg-base-100 shadow-xl">
+                        <figure><img src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/alamericaine.jpeg"
                                      alt="event1"/></figure>
                         <div className="card-body">
                             <div className="card-actions justify-start">
@@ -57,8 +57,8 @@ export default function Events() {
                         </div>
                     </div>
 
-                    <div className="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="src/assets/images/event4.jpeg"
+                    <div className="card w-80 bg-base-100 shadow-xl">
+                        <figure><img src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/event4.jpeg"
                                      alt="event1"/></figure>
                         <div className="card-body">
                             <div className="card-actions justify-start">
@@ -95,8 +95,8 @@ export default function Events() {
                         </div>
                     </div>
 
-                    <div className="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="src/assets/images/event3.jpeg"
+                    <div className="card w-80 bg-base-100 shadow-xl">
+                        <figure><img src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/event3.jpeg"
                                      alt="event1"/></figure>
                         <div className="card-body">
                             <div className="card-actions justify-start">

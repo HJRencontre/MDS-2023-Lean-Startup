@@ -7,7 +7,7 @@ export default function Navbar() {
             <div className="flex-none">
                 <a href="#bottom" className="border-2 btn btn-outline border-lime text-lime">
                     Je suis organisateur
-                    <img src="../assets/forms/arrowdown.png" className="max-w-sm rounded-lg" />
+                    <img src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/forms/arrowdown.png" className="max-w-sm rounded-lg" />
                 </a>
             </div>
         </div>

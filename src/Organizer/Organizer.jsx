@@ -30,7 +30,10 @@ export default function Organizer() {
             <div className="bg-lime rounded-t-md text-blueMidnight p-8 space-y-10">
                 <h1 className="font-bold text-5xl">Organisateur</h1>
                 <p className="mt-4">
-                    Vous êtes un théâtre et souhaitez rejoindre Spotlive ou avez des questions ? Remplissez ce formulaire, vous serez recontacté dans la journée !
+                    Vous êtes un théâtre et souhaitez rejoindre Spotlive ou avez des questions ?
+                </p>
+                <p>
+                    Remplissez ce formulaire, et vous serez recontacté dans la journée !
                 </p>
                 <form className="bg-white p-8 shadow-2xl rounded-xl" onSubmit={handleSubmit}>
                     <div className="grid grid-cols-2 gap-4">
