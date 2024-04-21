@@ -21,10 +21,6 @@ E
 src/Events/Events.jsx,e/0/e0b73280d1a401e1b0cdffca50f4a2a0b65f03c2
 I
 src/Services/Services.jsx,0/7/071ffad1b25abe7ea522a7bd57400886c7e8f6b8
-C
-src/mapRevealed.jsx,5/e/5e76efe74eadf46ca5a10bb845aad134d1ec2c73
-C
-src/MapRevealed.jsx,d/a/da15776294b51e6f1096a6be28342adcd9ff76f3
 O
 src/MapRevealed/MapRevealed.jsx,6/d/6dd371ba56bebf726391c5a9ccb746c543cd38c3
 I
@@ -42,3 +38,37 @@ K
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 >
 vite.config.js,2/3/23e488f27597a265a6ab2b1efbe18221c6f88c2f
+I
+src/HomePage/HomePage.tsx,9/a/9ad9c00f90fef70886e8fd7117b1dcfa81f345a1
+J
+src/HomePage/Hero/Hero.jsx,7/c/7c9da791deae1d56053fc2a088e23d136e50383a
+I
+src/HomePage/HomePage.jsx,2/5/25ae3abf43106e163c9203f8e095f2be41dc32c9
+F
+src/pages/HomePage.jsx,1/3/1317dfcb0036542dbcd58e5e1f0c6ff9d3b33828
+C
+src/pages/index.jsx,a/c/acc81c36557d8229ae7d4d064f6bdca7a69078ca
+X
+(src/HomePage/MapRevealed/MapRevealed.jsx,1/b/1b8137a2e25f4b5e8231d0c778a4478db49ad039
+N
+src/HomePage/Events/Events.jsx,e/0/e04b31e9fc6aa1d7d9ce2853c2e58c1015e69704
+R
+"src/HomePage/Carousel/Carousel.jsx,1/7/17649cd93bdfbddcace561c84329ba6e530d848a
+M
+src/HomePage/Events/EVENTS.js,2/c/2c89efb77f615e6d7f32ba4896459524d6e0ef7a
+G
+src/pages/organizer.jsx,2/b/2bab684b3949f39a0c45ee87cddda92d96dbf374
+R
+"src/HomePage/Services/Services.jsx,8/9/89e152f86a255f813defea1f3de47e8a9cfaca65
+O
+src/Organizer/OrganizerForm.jsx,5/9/59037246d53ac328f29340b54b309a8b1f6d369f
+P
+ src/Organizer/OrganizerForms.jsx,c/7/c7141113f93bf97f13523281919318327a9951e5
+S
+#src/OrganizerPage/OrganizerHero.jsx,6/d/6d4496f1f0ccae6350e68e6e3f71fd06d3fe63b1
+S
+#src/OrganizerPage/OrganizerPage.jsx,d/b/dbcd969033dc3d9ff23e0803bf47dc2353c77d0b
+T
+$src/OrganizerPage/OrganizerForms.jsx,5/b/5b11e58b140d4914302174c99e5be3f3b99a71b1
+W
+'src/OrganizerPage/OrganizerServices.jsx,a/7/a768baed43808e4e59eb2f84be375c6d5de89440

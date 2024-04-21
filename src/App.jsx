@@ -1,24 +1,23 @@
+// eslint-disable-next-line no-unused-vars
+import React from "react";
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './App.css'
-import Hero from "./Hero/Hero.jsx";
 import Navbar from "./Navbar/Navbar.jsx";
-import MapRevealed from "./MapRevealed/MapRevealed.jsx";
-import Carousel from "./Carousel/Carousel.jsx";
+import HomePage from "./pages/index.jsx";
 import Footer from "./Footer/Footer.jsx";
-import Organizer from "./Organizer/Organizer.jsx";
-import Events from "./Events/Events.jsx";
-import Services from "./Services/Services.jsx";
+import OrganizerPage from "./OrganizerPage/OrganizerPage.jsx";
 
 function App() {
-    return (
-        <>
-            <Navbar/>
-            <Hero/>
-            <Events/>
-            <Services/>
-            <Organizer/>
-            <Footer/>
-        </>
-    );
+  return (
+    <Router>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/organizer" element={<OrganizerPage />} />
+      </Routes>
+      <Footer/>
+    </Router>
+  );
 }
 
 export default App;

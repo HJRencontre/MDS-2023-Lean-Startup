@@ -1,3 +1,5 @@
+// eslint-disable-next-line no-unused-vars
+import React from "react";
 import MapRevealed from "../MapRevealed/MapRevealed.jsx";
 
 export default function Hero(){
@@ -8,14 +10,17 @@ export default function Hero(){
                 <div>
 
                     <div className="grid grid-cols-2">
-                        <h1 className="text-left text-5xl font-bold">La culture</h1>
-                    <img className="h-20 w-64 origin-top-left justify-start" src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/titlewavesketch.png" />
+                        <h1 className="text-left text-5xl font-bold">La culture à portée de pas</h1>
+                        <img className="h-20 w-64 origin-top-left justify-start"
+                             src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/titlewavesketch.png"
+                             alt="Image de présentation"/>
                     </div>
-
-                    <h1 className="text-left text-5xl font-bold">à portée de pas.</h1>
                     <p className="py-6 text-left">Réservez vos places, visionnez des vidéos exclusives
                         de ces lieux et plongez dans une experience culture inoubliable !</p>
-                    <button className="btn bg-blueElectric text-lime" onClick={()=>document.getElementById('my_modal_3').showModal()}>Souscrire à la beta </button>
+                    <button className="btn bg-blueElectric text-lime"
+                            onClick={() => document.getElementById('my_modal_3').showModal()}>Redécouvrez votre
+                        quartier!
+                    </button>
                     <dialog id="my_modal_3" className="modal bg-lime">
                         <div className="modal-box bg-blueElectric">
                             <form method="dialog">
@@ -25,7 +30,7 @@ export default function Hero(){
                             <h3 className="text-lg font-bold">La culture a portée de pas</h3>
                             <p className="py-4">Glissez le slider pour révéler la culture autour de vous !</p>
                             <div className="modal-action">
-                                <MapRevealed></MapRevealed>
+                                <MapRevealed/>
                             </div>
                         </div>
                     </dialog>

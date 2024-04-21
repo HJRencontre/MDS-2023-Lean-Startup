@@ -1,6 +1,9 @@
+// eslint-disable-next-line no-unused-vars
+import React from "react";
+
 export default function Footer() {
     return (
-        <footer className="p-10 footer footer-center bg-base-200 text-base-content text-blueMidnight">
+        <footer className="p-10 footer footer-center bg-white text-base-content text-blueMidnight">
             <div className="flex-1">
                 <img src="https://raw.githubusercontent.com/HJRencontre/MDS-2023-Lean-Startup/7bfe9ddd26904686f8d23103dcc191ac1ab12684/src/assets/images/typography2.png" className="w-24 md:w-40"/>
             </div>

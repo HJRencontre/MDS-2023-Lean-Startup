@@ -1,3 +1,6 @@
+// eslint-disable-next-line no-unused-vars
+import React from "react";
+
 export default function Events() {
     return (<div className="w-auto border-2 card border-lime">
             <div className="card lg:card-side">

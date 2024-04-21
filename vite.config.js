@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import reactRefresh from '@vitejs/plugin-react-refresh'
+import pages from 'vite-plugin-pages'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/MDS-2023-Lean-Startup/",
-  plugins: [react()],
+  plugins: [reactRefresh(), pages()]
 })

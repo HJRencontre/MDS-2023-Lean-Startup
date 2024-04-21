@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-
-export default function Organizer() {
+// eslint-disable-next-line no-unused-vars
+import React, {useState} from "react";
+export default function OrganizerForms() {
     const [formData, setFormData] = useState({
         prenom: '',
         nom: '',
@@ -27,8 +27,8 @@ export default function Organizer() {
 
     return (
         <div id="bottom">
-            <div className="bg-lime rounded-t-md text-blueMidnight p-8 space-y-10">
-                <h1 className="font-bold text-5xl">Organisateur</h1>
+            <div className="bg-lime text-blueMidnight p-8 space-y-10">
+                <h1 className="font-bold text-5xl">Nous rejoindre</h1>
                 <p className="mt-4">
                     Vous êtes un théâtre et souhaitez rejoindre Spotlive ou avez des questions ?
                 </p>
