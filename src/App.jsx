@@ -12,8 +12,8 @@ function App() {
     <Router>
       <Navbar/>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/organizer" element={<OrganizerPage />} />
+        <Route path="/MDS-2023-Lean-Startup/" element={<HomePage />} />
+        <Route path="/MDS-2023-Lean-Startup/organizer" element={<OrganizerPage />} />
       </Routes>
       <Footer/>
     </Router>

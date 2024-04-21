@@ -4,8 +4,8 @@ import { useLocation } from 'react-router-dom';
 
 export default function Navbar() {
   const location = useLocation();
-  const href = location.pathname === "/organizer" ? "/" : "/organizer";
-  const buttonTitle = location.pathname !== "/organizer" ? "Je suis organisateur" : "Je suis un spectateur";
+  const href = location.pathname === "/MDS-2023-Lean-Startup/organizer" ? "/" : "/MDS-2023-Lean-Startup/organizer";
+  const buttonTitle = location.pathname !== "/MDS-2023-Lean-Startup/organizer" ? "Je suis organisateur" : "Je suis un spectateur";
 
   return (
     <div className="navbar" id="home">
